@@ -1,0 +1,24 @@
+.square {
+    float:left;
+    position: relative;
+    z-index:-999999;
+    width: 30%;                                                                 //Grid Spacing and grid width 
+    padding-bottom : 30%; 
+    margin:1.66%;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:contain; 
+}
+
+.img_1-1{background-image:url('../images/test.png');}
+.img_1-2{background-image:url('../images/test.png');}
+.img_1-3{background-image:url('../images/test.png');}
+
+.img_2-1{background-image:url('../images/test.png');}
+.img_2-2{background-image:url('../images/test.png');}                       //This is for anyone who does want images in the square grid. 
+.img_2-3{background-image:url('../images/test.png');}
+
+.img_3-1{background-image:url('../images/test.png');}                           
+.img_3-2{background-image:url('../images/test.png');}
+.img_3-3{background-image:url('../images/test.png');}
+ 
