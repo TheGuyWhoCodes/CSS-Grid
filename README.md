@@ -10,15 +10,15 @@ the next one is the .img tag, there are multiples for each row, this can call fo
 
 If you just want the grid and don't want to place the images, just remove the img atribute in the div tag. eg:
 
-<div class="square img_2-3">
+< div class="square img_2-3" >
     ayy an image
-</div>
+< /div >
 
 to
 
-div class="square"
+< div class="square" >
 ayy i made a square
-/div
+< /div >
 
 
 If you want to modify atributes but keep the old css, just copy and paste the css with a new name eg:
