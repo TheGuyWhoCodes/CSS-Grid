@@ -10,43 +10,68 @@ the next one is the .img tag, there are multiples for each row, this can call fo
 
 If you just want the grid and don't want to place the images, just remove the img atribute in the div tag. eg:
 
-<div class="square img_2-3">
-</div>
+div class="square img_2-3"
+/div
 
 to
 
-<div class="square">
+div class="square"
 ayy i made a square
-</div>
+/div
+
 
 If you want to modify atributes but keep the old css, just copy and paste the css with a new name eg:
 
 .square {
+
     float:left;
+
     position: relative;
+
     z-index:-999999;
-    width: 30%;                                                                 //Grid Spacing and grid width 
-    padding-bottom : 30%; 
+
+    width: 30%;
+
+    padding-bottom : 30%;
+
     margin:1.66%;
+
     background-position:center center;
+
     background-repeat:no-repeat;
-    background-size:contain; 
+
+    background-size:contain;
+
 }
 
-to 
+
+to
 
 .square_portfolio {
+
     float:left;
+
     position: relative;
+
     z-index:-999999;
-    width: 30%;                                                                 //Grid Spacing and grid width 
-    padding-bottom : 30%; 
+
+    width: 30%;
+
+    padding-bottom : 30%;
+
     margin:1.66%;
+
     background-position:center center;
+
     background-repeat:no-repeat;
-    background-size:contain; 
+
+    background-size:contain;
+
     background-color:#33b5e5;
+
 }
+
+
 
 If you want to see the code in action, please visit the portfolio section of my website @ chris-a.rocks/projects.php
 
