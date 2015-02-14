@@ -10,8 +10,9 @@ the next one is the .img tag, there are multiples for each row, this can call fo
 
 If you just want the grid and don't want to place the images, just remove the img atribute in the div tag. eg:
 
-div class="square img_2-3"
-/div
+<div class="square img_2-3">
+    ayy an image
+</div>
 
 to
 
